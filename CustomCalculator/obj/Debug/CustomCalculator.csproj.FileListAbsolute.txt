@@ -1,0 +1,16 @@
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\bin\Debug\CustomCalculator.dll
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\obj\Debug\CustomCalculator.csproj.AssemblyReference.cache
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\obj\Debug\CustomCalculator.dll
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\obj\Debug\CustomCalculator.pdb
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\obj\Debug\CustomCalculator.CustomCalculator.resources
+C:\Users\maksi\source\repos\TestProject\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+E:\ССП_Лабы\ssp_4\CustomCalculator\bin\Debug\CustomCalculator.dll
+E:\ССП_Лабы\ssp_4\CustomCalculator\bin\Debug\CustomCalculator.pdb
+E:\ССП_Лабы\ssp_4\CustomCalculator\obj\Debug\CustomCalculator.csproj.AssemblyReference.cache
+E:\ССП_Лабы\ssp_4\CustomCalculator\obj\Debug\CustomCalculator.CustomCalculator.resources
+E:\ССП_Лабы\ssp_4\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+E:\ССП_Лабы\ssp_4\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+E:\ССП_Лабы\ssp_4\CustomCalculator\obj\Debug\CustomCalculator.dll
+E:\ССП_Лабы\ssp_4\CustomCalculator\obj\Debug\CustomCalculator.pdb
