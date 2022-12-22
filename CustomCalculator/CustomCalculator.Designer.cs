@@ -84,10 +84,10 @@ namespace CustomCalculator
             // 
             this.button3.BackColor = System.Drawing.Color.Lavender;
             this.button3.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(186, 120);
+            this.button3.Location = new System.Drawing.Point(186, 122);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 49);
+            this.button3.Size = new System.Drawing.Size(64, 47);
             this.button3.TabIndex = 2;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
@@ -174,11 +174,11 @@ namespace CustomCalculator
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.Lavender;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 28.2F);
-            this.button10.Location = new System.Drawing.Point(323, 174);
+            this.button10.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button10.Location = new System.Drawing.Point(323, 173);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(64, 49);
+            this.button10.Size = new System.Drawing.Size(65, 49);
             this.button10.TabIndex = 9;
             this.button10.Text = "/";
             this.button10.UseVisualStyleBackColor = false;
@@ -187,11 +187,11 @@ namespace CustomCalculator
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.Lavender;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 28.2F);
-            this.button11.Location = new System.Drawing.Point(255, 174);
+            this.button11.Font = new System.Drawing.Font("Trebuchet MS", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button11.Location = new System.Drawing.Point(255, 173);
             this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(64, 50);
+            this.button11.Size = new System.Drawing.Size(64, 49);
             this.button11.TabIndex = 10;
             this.button11.Text = "*";
             this.button11.UseVisualStyleBackColor = false;
@@ -200,11 +200,11 @@ namespace CustomCalculator
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.Lavender;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 28.2F);
+            this.button12.Font = new System.Drawing.Font("Trebuchet MS", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button12.Location = new System.Drawing.Point(323, 227);
             this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(64, 49);
+            this.button12.Size = new System.Drawing.Size(65, 49);
             this.button12.TabIndex = 11;
             this.button12.Text = "-";
             this.button12.UseVisualStyleBackColor = false;
@@ -240,7 +240,7 @@ namespace CustomCalculator
             // 
             this.button15.BackColor = System.Drawing.Color.Lavender;
             this.button15.Font = new System.Drawing.Font("Tempus Sans ITC", 19.8F, System.Drawing.FontStyle.Bold);
-            this.button15.Location = new System.Drawing.Point(255, 280);
+            this.button15.Location = new System.Drawing.Point(255, 278);
             this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(133, 49);
@@ -252,11 +252,11 @@ namespace CustomCalculator
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.Lavender;
-            this.button16.Font = new System.Drawing.Font("Segoe UI", 28.2F);
-            this.button16.Location = new System.Drawing.Point(255, 228);
+            this.button16.Font = new System.Drawing.Font("Trebuchet MS", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button16.Location = new System.Drawing.Point(255, 227);
             this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(64, 48);
+            this.button16.Size = new System.Drawing.Size(64, 49);
             this.button16.TabIndex = 15;
             this.button16.Text = "+";
             this.button16.UseVisualStyleBackColor = false;
@@ -265,11 +265,11 @@ namespace CustomCalculator
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.Tomato;
-            this.button17.Font = new System.Drawing.Font("Times New Roman", 10.2F);
-            this.button17.Location = new System.Drawing.Point(323, 120);
+            this.button17.Font = new System.Drawing.Font("Trebuchet MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button17.Location = new System.Drawing.Point(323, 122);
             this.button17.Margin = new System.Windows.Forms.Padding(2);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(64, 49);
+            this.button17.Size = new System.Drawing.Size(65, 47);
             this.button17.TabIndex = 16;
             this.button17.Text = "C";
             this.button17.UseVisualStyleBackColor = false;
@@ -278,12 +278,12 @@ namespace CustomCalculator
             // button18
             // 
             this.button18.BackColor = System.Drawing.Color.Tomato;
-            this.button18.Font = new System.Drawing.Font("Times New Roman", 10.2F);
+            this.button18.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button18.Location = new System.Drawing.Point(254, 120);
+            this.button18.Location = new System.Drawing.Point(255, 122);
             this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(65, 49);
+            this.button18.Size = new System.Drawing.Size(64, 47);
             this.button18.TabIndex = 17;
             this.button18.Text = "<-";
             this.button18.UseVisualStyleBackColor = false;
@@ -297,7 +297,7 @@ namespace CustomCalculator
             this.textBoxOutput.Location = new System.Drawing.Point(50, 75);
             this.textBoxOutput.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxOutput.Name = "textBoxOutput";
-            this.textBoxOutput.Size = new System.Drawing.Size(337, 43);
+            this.textBoxOutput.Size = new System.Drawing.Size(338, 43);
             this.textBoxOutput.TabIndex = 20;
             this.textBoxOutput.Text = "0";
             this.textBoxOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -333,7 +333,7 @@ namespace CustomCalculator
             this.button20.Location = new System.Drawing.Point(323, 280);
             this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(64, 49);
+            this.button20.Size = new System.Drawing.Size(64, 47);
             this.button20.TabIndex = 23;
             this.button20.Text = "ANS";
             this.button20.UseVisualStyleBackColor = false;

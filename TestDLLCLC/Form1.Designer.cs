@@ -1,4 +1,4 @@
-﻿namespace TestDLLCLC
+﻿namespace CalculatorTest
 {
     partial class Form1
     {

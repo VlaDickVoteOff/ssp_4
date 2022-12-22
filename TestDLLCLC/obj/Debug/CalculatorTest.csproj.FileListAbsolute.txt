@@ -1,0 +1,14 @@
+E:\ССП_Лабы\ssp_4\TestDLLCLC\bin\Debug\CalculatorTest.exe.config
+E:\ССП_Лабы\ssp_4\TestDLLCLC\bin\Debug\CalculatorTest.exe
+E:\ССП_Лабы\ssp_4\TestDLLCLC\bin\Debug\CalculatorTest.pdb
+E:\ССП_Лабы\ssp_4\TestDLLCLC\bin\Debug\CustomCalculator.dll
+E:\ССП_Лабы\ssp_4\TestDLLCLC\bin\Debug\CustomCalculator.pdb
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.csproj.AssemblyReference.cache
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.csproj.SuggestedBindingRedirects.cache
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.Form1.resources
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.Properties.Resources.resources
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.csproj.GenerateResource.cache
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.csproj.CoreCompileInputs.cache
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.csproj.CopyComplete
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.exe
+E:\ССП_Лабы\ssp_4\TestDLLCLC\obj\Debug\CalculatorTest.pdb

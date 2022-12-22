@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0EAF9AD5-114B-4A0C-BDA6-F3EDD6C64CEB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TestDLLCLC</RootNamespace>
-    <AssemblyName>TestDLLCLC</AssemblyName>
+    <RootNamespace>CalculatorTest</RootNamespace>
+    <AssemblyName>CalculatorTest</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

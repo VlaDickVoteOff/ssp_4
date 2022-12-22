@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TestDLLCLC
+namespace CalculatorTest
 {
     public partial class Form1 : Form
     {
@@ -17,10 +17,10 @@ namespace TestDLLCLC
             InitializeComponent();
         }
 
-        private void customCalculator1_Load(object sender, EventArgs e)
-        {
+        //private void customCalculator1_Load(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
         private void customCalculator1_Load_1(object sender, EventArgs e)
         {

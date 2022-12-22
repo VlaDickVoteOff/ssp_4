@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace CustomCalculator
@@ -16,7 +17,7 @@ namespace CustomCalculator
     {
 
         private static string currentCalculation = string.Empty;
-        private static List<string> operators = new List<string>() { "+", "-", "*", "/", "^" };
+        private static List<string> operators = new List<string>() { "+", "-", "*", "/", "^"};
         private static string prevValue = "0";
 
 
@@ -55,6 +56,7 @@ namespace CustomCalculator
             }
 
 
+
             for (int i = 1; i < currentCalculation.Length; i++)
             {
                 if (currentCalculation[i] == 'A' && !operators.Contains(currentCalculation[i - 1].ToString()))
@@ -89,13 +91,47 @@ namespace CustomCalculator
             prevValue = formattedCalculation;
 
             var index = formattedCalculation.IndexOf("^");
+
+
+            //try
+            //{
+            //    if (formattedCalculation.Contains("."))
+            //    {
+            //        string[] numbers = formattedCalculation.Split('.'); //string[] numbers = formattedCalculation.Split(new char[] { '.', '+', '-', '*', '/', '^' });
+            //        foreach (var number in numbers)
+            //        {
+            //            if (formattedCalculation.Contains($".{number}."))
+            //            {
+            //                throw new Exception();
+
+            //            }
+            //        }
+
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    textBoxOutput.Text = "0";
+            //    currentCalculation = "";
+            //    textBoxError.Text = "Ошибка ввода";
+            //}
+
+
+
+
+
+
+
+
+
             var tst = textBoxOutput.Text;
 
             try
             {
                 if (index == -1)
                 {
-                    textBoxOutput.Text = new DataTable().Compute(formattedCalculation, null).ToString();
+                    textBoxOutput.Text = new DataTable().Compute(formattedCalculation, null).ToString().Replace(",", "."); 
                 }
                 else
                 {
@@ -108,7 +144,7 @@ namespace CustomCalculator
                         result *= calculatedBeforeIndex;
                     }
 
-                    textBoxOutput.Text = result.ToString();
+                    textBoxOutput.Text = result.ToString().Replace(",", ".");
                 }
 
                 currentCalculation = textBoxOutput.Text;
@@ -134,7 +170,7 @@ namespace CustomCalculator
             {
                 currentCalculation = currentCalculation.Remove(currentCalculation.Length - 1, 1);
             }
-            //if(currentCalculation.Contains())
+           
 
             textBoxOutput.Text = currentCalculation;
         }
@@ -157,9 +193,9 @@ namespace CustomCalculator
                         textBoxOutput.Text = textBoxOutput.Text.Remove(0, 1);
                     }
                     else
-                {
-                    textBoxOutput.Text = "-" + textBoxOutput.Text;
-                }
+                    {
+                        textBoxOutput.Text = "-" + textBoxOutput.Text;
+                    }
                     znak = true;
 
                 }             
@@ -167,7 +203,7 @@ namespace CustomCalculator
                
 
             
-            currentCalculation = textBoxOutput.Text;
+                currentCalculation = textBoxOutput.Text;
 
 
 
